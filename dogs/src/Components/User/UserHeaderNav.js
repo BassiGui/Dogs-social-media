@@ -38,7 +38,7 @@ const UserHeaderNav = () => {
           <MinhasFotos />
           {mobile && 'Minhas Fotos'}
         </NavLink>
-        <NavLink to="/conta/estatistica" activeClassName={styles.active}>
+        <NavLink to="/conta/estatisticas" activeClassName={styles.active}>
           <Estatisticas />
           {mobile && 'Estatísticas'}
         </NavLink>
